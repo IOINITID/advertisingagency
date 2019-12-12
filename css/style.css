@@ -90,7 +90,7 @@ body {
   height: 945px;
   position: relative;
   overflow: hidden;
-  background-color: #e3ab3a;
+  background-color: #f4bb43;
   z-index: 0;
 }
 
@@ -401,3 +401,242 @@ body {
 }
 
 /* Стили для features */
+
+
+
+/* Стили для customers */
+
+.customers {
+  padding-top: 91px;
+  padding-bottom: 101px;
+  background-image: url("../img/customers.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  min-height: 945px;
+}
+
+.customers__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 99px;
+}
+
+.customers__title span {
+  color: #ed1b3b;
+}
+
+.customers__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.customers__item {
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.customers__image {
+  width: 192px;
+  height: 192px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 29px;
+}
+
+.customers__image img {
+  width: 100%;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+}
+
+.customers__text {
+  color: #252320;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+/* Стили для customers */
+
+
+
+/* Стили для cost */
+
+.cost {
+  padding-top: 89px;
+  padding-bottom: 130px;
+}
+
+.cost__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 93px;
+  padding: 0 100px;
+}
+
+.cost__title span {
+  color: #ed1b3b;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 524px;
+  height: 600px;
+  border: 2px solid #ffc240;
+  background-color: #ffffff;
+  /* padding: 65px 80px; */
+}
+
+.card--one {
+  margin-right: 15px;
+  padding: 65px 80px;
+}
+
+.card--two {
+  margin-left: 15px;
+  padding: 0;
+}
+
+.card__title {
+  color: #252320;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.card--two .card__title {
+  padding: 65px 80px 0 65px;
+}
+
+.card__text {
+  color: #ed1b3b;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 21px;
+  border-bottom: 1px solid #d7d5cf;
+}
+
+.card--two .card__text {
+  margin: 0 80px;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 31px;
+}
+
+.card__list-item {
+  color: #252320;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.card--two .card__list-item {
+  padding: 0 80px;
+}
+
+.card__list-item:last-child {
+  margin: 0;
+}
+
+.card__list-item::before {
+  content: "";
+  min-width: 10px;
+  height: 10px;
+  background-color: #ffc240;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+
+.card__description {
+  color: #252320;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 22px;
+  background-color: #f7f6f3;
+  padding: 20px 80px;
+}
+
+.card__description span {
+  color: #ed1b3b;
+}
+
+.card__link {
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.3);
+  background-color: #ffc240;
+  color: #252320;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.card--two .card__link {
+  width: auto;
+  margin: 0 80px;
+}
+
+.card--one .card__list {
+  margin-bottom: 51px;
+}
+
+.card--two .card__list {
+  margin-bottom: 21px;
+}
+
+.card--choice {
+  background-image: url("../img/choice-icon.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+/* Стили для cost */
