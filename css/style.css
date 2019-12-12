@@ -1,0 +1,231 @@
+/* Полключаю шрифты */
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 300;
+  src: url("../fonts/MontserratLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url("../fonts/MontserratRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("../fonts/MontserratMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("../fonts/MontserratBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 800;
+  src: url("../fonts/MontserratExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-weight: 400;
+  font-style: italic;
+  src: url("../fonts/GeorgiaItalic.woff") format("woff");
+}
+
+/* Полключаю шрифты */
+
+
+
+/* Глобальные стили */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Глобальные стили */
+
+
+/* Стили для header */
+
+.header {
+  width: 100%;
+  height: 945px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffc240;
+  z-index: 0;
+}
+
+.header__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2172px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  padding: 29px 0;
+}
+
+.logo {
+  margin-right: 28px;
+}
+
+.info {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+}
+
+.info__name {
+  font-weight: 700;
+}
+
+.address {
+  margin-left: auto;
+  margin-right: 37px;
+}
+
+.address__phone {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-right: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+}
+
+.schedule__info {
+  font-weight: 700;
+}
+
+.header__intro {
+  padding-top: 235px;
+}
+
+.header__title {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin: 0;
+  margin-bottom: 34px;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.header__text {
+  color: #ffffff;
+  font-family: "Georgia", "Arial", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  letter-spacing: 0.6px;
+  margin: 0;
+  text-align: center;
+  padding: 0 180px;
+}
+
+.header__scroll {
+  padding-top: 165px;
+  text-align: center;
+}
+
+.header__icon {
+  animation-name: scroll;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes scroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -50%, 0);
+  }
+}
+
+/* Стили для header */
+
+
+
+/* Стили для adjustments */
+
+.adjustments__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+}
+
+.adjustments__title span {
+  color: #ed1b3b;
+}
+
+
+/* Стили для adjustments */
