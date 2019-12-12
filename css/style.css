@@ -462,8 +462,10 @@ body {
 
 .customers__image img {
   width: 100%;
+  height: 100%;
   border: 10px solid #ffffff;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .customers__text {
@@ -640,3 +642,224 @@ body {
 }
 
 /* Стили для cost */
+
+
+
+/* Стили для analysis */
+
+.analysis {
+  background-image: url("../img/analysis-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 400px;
+  padding-top: 79px;
+  padding-bottom: 91px;
+}
+
+.analysis__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.analysis__text {
+  color: #252320;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 56px;
+}
+
+.analysis__form {
+  display: flex;
+  justify-content: center;
+}
+
+.analysis__phone {
+  width: 350px;
+  height: 60px;
+  border: 1px solid #eab13a;
+  background-color: #ffffff;
+  color: #a4a39f;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-align: center;
+  padding: 0 20px;
+  margin-right: 34px;
+}
+
+.address__phone::placeholder {
+  color: #a4a39f;
+}
+
+.analysis__send {
+  width: 350px;
+  height: 60px;
+  box-shadow: 0 0 30px rgba(237, 27, 59, 0.3);
+  background-color: #ed1b3b;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  border: none;
+  margin-left: 34px;
+}
+
+/* Стили для analysis */
+
+
+
+/* Стили для specialists */
+
+.specialists {
+  padding-top: 91px;
+  padding-bottom: 86px;
+}
+
+.specialists__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 114px;
+}
+
+.specialists__title span {
+  color: #ed1b3b;
+}
+
+.specialists__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.specialists__item {
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specialists__image {
+  width: 192px;
+  height: 192px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.specialists__image img {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.specialists__name {
+  font-size: 18px;
+  color: #252320;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+}
+
+.specialists__description {
+  font-family: "Georgia", "Arial", sans-serif;
+  font-size: 18px;
+  color: #8e8b87;
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.specialists__call {
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.3);
+  background-color: #ffc240;
+  color: #252320;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Стили для specialists */
+
+
+
+/* Стили для reviews */
+
+.reviews {
+  padding-top: 74px;
+  padding-bottom: 101px;
+  background-color: #f7f6f3;
+}
+
+.reviews__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 96px;
+}
+
+.reviews__info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews__video {
+  width: 746px;
+  height: 420px;
+  background-color: #000000;
+  margin-right: 15px;
+  position: relative;
+}
+
+.reviews__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews__text {
+  width: 516px;
+  margin-left: 15px;
+}
+
+.reviews__text p {
+  color: #252320;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  margin: 0;
+}
+
+/* Стили для reviews */
