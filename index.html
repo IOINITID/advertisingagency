@@ -57,14 +57,73 @@
 
   <main class="main" class="" style="min-height: 6000px;">
 
-    <section class="adjustments">
+    <section class="container adjustments">
       <h2 class="adjustments__title">Хочу корректировки <span>бесплатно</span></h2>
+      <div class="adjustments__info">
+        <div class="adjustments__video">
+          <iframe src="https://player.vimeo.com/video/35565030?color=e6430a&badge=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen"
+            allowfullscreen></iframe>
+        </div>
+        <div class="adjustments__form">
+          <form id="form-contact-1" class="form" action="https://echo.htmlacademy.ru" method="post">
+            <h3 class="form__title">Напишите Ваш номер телефона, мы перезвоним <span>в течение 30 минут</span><br>
+              <p>и<br> обговорим с Вами детали для внесения
+                корректировок</p>
+            </h3>
+            <label for="phone">
+              <input class="adjustments__phone" type="tel" name="phone" id="phone" placeholder="+7 (___) ___-__-__">
+            </label>
+            <button class="adjustments__send" type="submit">Внести корректировки</button>
+            <p class="adjustments__privacy">Заполняя форму вы даёте своё согласие<br> <a href="#" target="_blank">на
+                обработку персональных данных</a></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="features__title">Наши услуги</h2>
+        <div class="features__info">
+          <div class="features__item features__item--left">
+            <div class="item top">
+              <span class="features__logo">
+                <img src="img/yandex-logo.jpg" alt="">
+              </span>
+              <p class="features__description">Яндекс.Директ</p>
+            </div>
+            <div class="item bottom">
+              <span class="features__logo">
+                <img src="img/google-logo.jpg" alt="">
+              </span>
+              <p class="features__description">Google AdWords</p>
+            </div>
+          </div>
+          <div class="features__item features__item--center">
+            <img src="img/features-example.png" alt="">
+          </div>
+          <div class="features__item features__item--right">
+              <div class="item top">
+                  <span class="features__logo">
+                    <img src="img/landing-logo.jpg" alt="">
+                  </span>
+                  <p class="features__description">Landing page</p>
+                </div>
+                <div class="item bottom">
+                  <span class="features__logo">
+                    <img src="img/dollar-logo.jpg" alt="">
+                  </span>
+                  <p class="features__description">Скрипты продаж</p>
+                </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
 
   <script src="js/jquery.min.js"></script>
-  <script src="js/simpleParallax.min.js"></script>
   <script src="js/rellax.min.js"></script>
   <script src="js/script.js"></script>
 </body>
