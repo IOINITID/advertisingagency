@@ -1,8 +1,8 @@
+// header parallax
 var rellax = new Rellax('.rellax', {
   speed: 35
 });
-
-// slider-one element
+// slider-one
 $('.slider-one').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -10,8 +10,6 @@ $('.slider-one').slick({
   autoplaySpeed: 5000,
   arrows: false,
   dots: false,
-  // prevArrow: '.slider-two-prev',
-  // nextArrow: '.slider-two-next',
   responsive: [{
     breakpoint: 1299,
     settings: {
@@ -21,8 +19,7 @@ $('.slider-one').slick({
     }
   }]
 });
-
-// slider-two element
+// slider-two
 $('.slider-two').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -30,8 +27,6 @@ $('.slider-two').slick({
   autoplaySpeed: 5000,
   arrows: false,
   dots: false,
-  // prevArrow: '.slider-two-prev',
-  // nextArrow: '.slider-two-next',
   responsive: [{
     breakpoint: 1299,
     settings: {
