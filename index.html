@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
   <header class="header">
     <img class="header__background rellax" src="img/header-background.jpg"
       alt="Человек в позе летящего супергероя с плащем.">
@@ -55,7 +56,7 @@
     </div>
   </header>
 
-  <main class="main" class="" style="min-height: 6000px;">
+  <main class="main">
     <section class="container adjustments">
       <h2 class="adjustments__title">Хочу корректировки <span>бесплатно</span></h2>
       <div class="adjustments__info">
@@ -262,7 +263,42 @@
         </div>
       </div>
     </section>
+    <section class="warranty">
+      <div class="container">
+        <h2 class="warranty__title">Наши гарантии</h2>
+        <ul class="warranty__list">
+          <li class="warranty__item">
+            <img class="warranty__image" src="img/warranty-one.jpg" alt="">
+            <p class="warranty__text">Полный пакет документов для бухгалтерии</p>
+          </li>
+          <li class="warranty__item">
+            <img class="warranty__image" src="img/warranty-two.jpg" alt="">
+            <p class="warranty__text">Вы можете оплачивать на расчетный счет</p>
+          </li>
+          <li class="warranty__item">
+            <img class="warranty__image" src="img/warranty-three.jpg" alt="">
+            <p class="warranty__text">Гарантия на наши работы 90 дней по договору</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="questions">
+      <h2 class="questions__title">Остались вопросы?</h2>
+      <p class="questions__description">Напишите Ваш вопрос,<br> оставьте телефон и мы свяжемся с Вами<br> в течение 2 часов</p>
+      <form id="form-contact-3" class="form questions__form" action="https://echo.htmlacademy.ru" method="post">
+        <label for="phone">
+          <input class="questions__phone" type="tel" name="phone" id="phone" placeholder="+7 (___) ___-__-__">
+        </label>
+        <textarea class="questions__text" name="text" id="text" placeholder="Текст..."></textarea>
+        <button class="questions__send" type="submit">Внести корректировки</button>
+        <p class="questions__privacy">Заполняя форму вы даёте своё согласие<br> <span>на обработку персональных данных</span></p>
+      </form>
+    </section>
   </main>
+
+  <footer class="footer">
+    <p class="footer__text">Copyright © 2019 Агентство контекстной рекламы.</p>
+  </footer>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/rellax.min.js"></script>

@@ -863,3 +863,179 @@ body {
 }
 
 /* Стили для reviews */
+
+
+
+/* Стили для warranty */
+
+.warranty {
+  padding-top: 88px;
+  padding-bottom: 91px;
+}
+
+.warranty__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 94px;
+}
+
+.warranty__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.warranty__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 413px;
+}
+
+.warranty__image {
+  width: 100%;
+  height: 274px;
+  margin-bottom: 30px;
+}
+
+.warranty__text {
+  color: #252320;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.45px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Стили для warranty */
+
+
+
+/* Стили для questions */
+
+.questions {
+  background: #f7f6f3 url("../img/questions-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding-top: 74px;
+  padding-bottom: 45px;
+}
+
+.questions__title {
+  color: #252320;
+  font-size: 48px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.questions__description {
+  color: #8e8b87;
+  font-family: "Georgia", "Arial", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.45px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 39px;
+}
+
+.questions__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questions__phone {
+  color: #a4a39f;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  width: 350px;
+  height: 60px;
+  border: 1px solid #d7d5cf;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.questions__phone::placeholder {
+  color: #a4a39f;
+}
+
+.questions__text {
+  color: #a4a39f;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  margin: 0;
+  width: 350px;
+  height: 200px;
+  border: 1px solid #d7d5cf;
+  background-color: #ffffff;
+  resize: none;
+  margin-bottom: 63px;
+  padding: 20px;
+}
+
+.questions__text::placeholder {
+  color: #a4a39f;
+}
+
+.questions__send {
+  color: #252320;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  border: none;
+  width: 350px;
+  height: 60px;
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.3);
+  background-color: #ffc240;
+  margin-bottom: 47px;
+  padding: 0;
+}
+
+.questions__privacy {
+  color: #8e8b87;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.questions__privacy span {
+  color: #ed1b3b;
+}
+
+/* Стили для questions */
+
+
+
+/* Стили для footer */
+
+.footer {
+  padding: 45px 0;
+}
+
+.footer__text {
+  color: #8e8b87;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Стили для footer */
