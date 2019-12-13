@@ -47,10 +47,12 @@
 *::before,
 *::after {
   box-sizing: inherit;
+  outline: inherit;
 }
 
 html {
   box-sizing: border-box;
+  outline: none;
 }
 
 body {
@@ -312,6 +314,18 @@ body {
   letter-spacing: 0.4px;
   padding: 0;
   margin-bottom: 24px;
+  cursor: pointer;
+}
+
+.adjustments__send:hover,
+.adjustments__send:focus {
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.6);
+  background-color: #ffd040;
+}
+
+.adjustments__send:active {
+  box-shadow: none;
+  background-color: #f8ab24;
 }
 
 .adjustments__privacy {
@@ -327,6 +341,17 @@ body {
 .adjustments__privacy a {
   color: #ed1b3b;
   text-decoration: none;
+}
+
+.adjustments__privacy a:hover,
+.adjustments__privacy a:focus {
+  color: #f04862;
+  text-decoration: underline;
+}
+
+.adjustments__privacy a:active {
+  color: #bd152f;
+  text-decoration: underline;
 }
 
 /* Стили для adjustments */
@@ -620,6 +645,18 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.card__link:hover,
+.card__link:focus {
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.6);
+  background-color: #ffd040;
+}
+
+.card__link:active {
+  box-shadow: none;
+  background-color: #f8ab24;
 }
 
 .card--two .card__link {
@@ -636,9 +673,21 @@ body {
 }
 
 .card--choice {
-  background-image: url("../img/choice-icon.png");
-  background-repeat: no-repeat;
-  background-position: 100% 0;
+  position: relative;
+}
+
+.card--choice svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card--choice--text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  transform: rotate(45deg) translate(30px, 42px);
 }
 
 /* Стили для cost */
@@ -695,7 +744,7 @@ body {
   margin-right: 34px;
 }
 
-.address__phone::placeholder {
+.analysis__phone::placeholder {
   color: #a4a39f;
 }
 
@@ -710,6 +759,18 @@ body {
   letter-spacing: 0.4px;
   border: none;
   margin-left: 34px;
+  cursor: pointer;
+}
+
+.analysis__send:hover,
+.analysis__send:focus {
+  box-shadow: 0 0 30px rgba(237, 27, 59, 0.6);
+  background-color: #ff1d3f;
+}
+
+.analysis__send:active {
+  box-shadow: none;
+  background-color: #d31632;
 }
 
 /* Стили для analysis */
@@ -803,6 +864,18 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.specialists__call:hover,
+.specialists__call:focus {
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.6);
+  background-color: #ffd040;
+}
+
+.specialists__call:active {
+  box-shadow: none;
+  background-color: #f8ab24;
 }
 
 /* Стили для specialists */
@@ -1003,6 +1076,18 @@ body {
   background-color: #ffc240;
   margin-bottom: 47px;
   padding: 0;
+  cursor: pointer;
+}
+
+.questions__send:hover,
+.questions__send:focus {
+  box-shadow: 0 0 30px rgba(255, 194, 64, 0.6);
+  background-color: #ffd040;
+}
+
+.questions__send:active {
+  box-shadow: none;
+  background-color: #f8ab24;
 }
 
 .questions__privacy {
@@ -1011,11 +1096,24 @@ body {
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.3px;
+  text-align: center;
   margin: 0;
 }
 
-.questions__privacy span {
+.questions__privacy a {
   color: #ed1b3b;
+  text-decoration: none;
+}
+
+.questions__privacy a:hover,
+.questions__privacy a:focus {
+  color: #f04862;
+  text-decoration: underline;
+}
+
+.questions__privacy a:active {
+  color: #bd152f;
+  text-decoration: underline;
 }
 
 /* Стили для questions */
