@@ -48,11 +48,13 @@
 *::after {
   box-sizing: inherit;
   outline: inherit;
+  scroll-behavior: inherit;
 }
 
 html {
   box-sizing: border-box;
   outline: none;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -994,7 +996,7 @@ body {
 
 .questions {
   /* background: #f7f6f3 url("../img/questions-background.jpg"); */
-  background-color:  #f7f6f3;
+  background-color: #f7f6f3;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -1120,8 +1122,8 @@ body {
 
 .questions__man {
   position: absolute;
-    right: 0;
-    bottom: -40px;
+  right: 0;
+  bottom: -40px;
 }
 
 .flying {
