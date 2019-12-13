@@ -993,7 +993,8 @@ body {
 /* Стили для questions */
 
 .questions {
-  background: #f7f6f3 url("../img/questions-background.jpg");
+  /* background: #f7f6f3 url("../img/questions-background.jpg"); */
+  background-color:  #f7f6f3;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -1025,6 +1026,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .questions__phone {
@@ -1115,6 +1117,31 @@ body {
   color: #bd152f;
   text-decoration: underline;
 }
+
+.questions__man {
+  position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+.flying {
+  animation-name: flying;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes flying {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(0, 7%, 0);
+  }
+}
+
 
 /* Стили для questions */
 
