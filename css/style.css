@@ -82,7 +82,7 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .container {
     padding: 0 20px;
   }
@@ -248,7 +248,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .header {
     height: auto;
   }
@@ -447,7 +447,7 @@ body {
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .adjustments {
     padding: 20px;
   }
@@ -560,7 +560,7 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .features {
     padding: 20px 0;
   }
@@ -595,6 +595,7 @@ body {
   .features__logo {
     width: 120px;
     height: 120px;
+    overflow: hidden;
   }
 
   .features__description {
@@ -694,7 +695,7 @@ body {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .customers {
     padding: 20px 0;
     min-height: auto;
@@ -894,7 +895,7 @@ body {
   background-size: 25%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .cost {
     padding: 20px 0;
   }
@@ -1037,7 +1038,7 @@ body {
   background-color: #d31632;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .analysis {
     padding: 20px 0;
     height: auto;
@@ -1175,7 +1176,7 @@ body {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .specialists {
     padding: 20px 0;
   }
@@ -1259,7 +1260,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .reviews {
     padding: 20px 0;
   }
@@ -1339,7 +1340,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .warranty {
     padding: 20px 0;
   }
@@ -1518,7 +1519,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .questions {
     padding: 20px 0;
   }
@@ -1576,7 +1577,7 @@ body {
   margin: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1299px) {
   .footer {
     padding: 20px 0;
   }
