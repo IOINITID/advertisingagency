@@ -1,4 +1,5 @@
 /* Полключаю шрифты */
+
 @font-face {
   font-family: "Montserrat";
   font-weight: 300;
@@ -41,6 +42,7 @@
 
 
 /* Глобальные стили */
+
 *,
 *::before,
 *::after {
@@ -121,6 +123,7 @@ body {
 
 
 /* Стили для header */
+
 .header {
   width: 100%;
   height: 945px;
@@ -309,6 +312,7 @@ body {
 
 
 /* Стили для adjustments */
+
 .adjustments {
   padding-top: 87px;
   padding-bottom: 192px;
@@ -481,12 +485,12 @@ body {
     margin-bottom: 20px;
   }
 }
+
 /* Стили для adjustments */
 
 
 
 /* Стили для features */
-
 .features {
   background-color: #f7f6f3;
   padding-top: 91px;
@@ -614,11 +618,13 @@ body {
     margin-bottom: 20px;
   }
 }
+
 /* Стили для features */
 
 
 
 /* Стили для customers */
+
 .customers {
   padding-top: 91px;
   padding-bottom: 101px;
@@ -718,6 +724,7 @@ body {
     display: block;
   }
 }
+
 /* Стили для customers */
 
 
@@ -955,11 +962,13 @@ body {
     font-size: 24px;
   }
 }
+
 /* Стили для cost */
 
 
 
 /* Стили для analysis */
+
 .analysis {
   background-image: url("../img/analysis-background.jpg");
   background-repeat: no-repeat;
@@ -1068,11 +1077,13 @@ body {
     margin: 0;
   }
 }
+
 /* Стили для analysis */
 
 
 
 /* Стили для specialists */
+
 .specialists {
   padding-top: 91px;
   padding-bottom: 86px;
@@ -1203,6 +1214,7 @@ body {
     display: block;
   }
 }
+
 /* Стили для specialists */
 
 
@@ -1290,11 +1302,13 @@ body {
     font-size: 14px;
   }
 }
+
 /* Стили для reviews */
 
 
 
 /* Стили для warranty */
+
 .warranty {
   padding-top: 88px;
   padding-bottom: 91px;
@@ -1364,11 +1378,13 @@ body {
     margin-bottom: 20px;
   }
 }
+
 /* Стили для warranty */
 
 
 
 /* Стили для questions */
+
 .questions {
   /* background: #f7f6f3 url("../img/questions-background.jpg"); */
   background-color: #f7f6f3;
@@ -1558,11 +1574,13 @@ body {
     display: none;
   }
 }
+
 /* Стили для questions */
 
 
 
 /* Стили для footer */
+
 .footer {
   padding: 45px 0;
 }
@@ -1582,4 +1600,5 @@ body {
     padding: 20px 0;
   }
 }
+
 /* Стили для footer */
